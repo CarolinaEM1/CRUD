@@ -1,6 +1,12 @@
 <html>
 <head>
     <title>Lista de proveedores</title>
+    <script type="text/javascript">
+        function confirmar(){
+            return confirm('¿Estas seguro?, se eliminarán los datos');
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
 <?php
@@ -30,7 +36,7 @@
                 <td>
 <?php echo "<a href='editar.php?id=".$filas['id']."'>EDITAR</a>"; ?>
                     -
-                    <?php echo "<a href=''>ELIMINAR</a>"; ?>
+<?php echo "<a href='eliminar.php?id=".$filas['id']."' onclick='return confirmar()'>ELIMINAR</a>"; ?>
 
 
                 </td>

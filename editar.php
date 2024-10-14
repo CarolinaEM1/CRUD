@@ -5,6 +5,7 @@
 <html>
 <head>
     <title>EDITAR</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
 <?php
