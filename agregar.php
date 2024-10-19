@@ -32,11 +32,11 @@
         }
         else {
     ?>
-    <h1>Agregar nuevo proveedor</h1>
+    <h1>Agregar nuevo sabor</h1>
     <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
     <label>Nombre:</label>
     <input type="text" name="nombre"><br>
-    <label>Producto</label>
+    <label>Descripcion</label>
     <input type="text" name="producto"><br>
     <input type="submit" name="enviar" value="AGREGAR">
     <a href="index.php">Regresar</a>

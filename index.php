@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Lista de proveedores</title>
+    <title>clientes</title>
     <script type="text/javascript">
         function confirmar(){
             return confirm('¿Estas seguro?, se eliminarán los datos');
@@ -14,14 +14,14 @@
     $sql="select * from proveedores";
     $resultado=mysqli_query($conexion,$sql);
 ?>
-    <h1>Lista de proveedores</h1>
-    <a href="agregar.php">Nuevo proveedor</a><br><br>
+    <h1>Sabores</h1>
+    <a href="agregar.php">Nuevo sabor</a><br><br>
     <table>
         <thead>
             <tr>
                 <th>ID</th>
                 <th>Nombre</th>
-                <th>Producto</th>
+                <th>Descripcion</th>
                 <th>Acciones</th>
             </tr>
         </thead>

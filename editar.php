@@ -43,12 +43,12 @@
 
             mysqli_close($conexion);
     ?>
-    <h1>Editar Proveedor<h1>
+    <h1>Editar sabor<h1>
     <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
         <label>Nombre:</label>
         <input type="text" name="nombre" value="<?php echo $nombre; ?>"><br>
 
-        <label>Producto</label>
+        <label>Descripcion</label>
         <input type="text" name="producto" value="<?php echo $producto; ?>"><br>
 
         <input type="hidden" name="id"
